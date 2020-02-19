@@ -1,6 +1,6 @@
 {
-  "name": "tictactow",
-  "homepage": "http://nusrateka.github.io/tictactow",
+  "name": "tictactoe",
+  "homepage": "http://nusrateka.github.io/tictactoe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
