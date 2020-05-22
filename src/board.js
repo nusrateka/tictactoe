@@ -24,6 +24,9 @@ class Board extends React.Component{
             <Square onClick={()=>{this.onClick(i)}} value={this.state.value[i]}/>
         )
     }
+    resetGame = () => {
+        this.setState({value:Array(9).fill(null),nextPerson: true})
+    }
     render(){
         const winner = calculateWinner(this.state.value);
         let status;
@@ -34,6 +37,8 @@ class Board extends React.Component{
         }
         return(
             <div>
+                <div className="title">Tic Tac Toe</div>
+                <div className="resetGame" onClick={this.resetGame}>Reset Game</div>
                 <div className="status">{status}</div>
                 <div className="board">
                     <div className="board-row">

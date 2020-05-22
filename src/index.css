@@ -38,11 +38,23 @@ table {
   width: 100%;
 }
 
+.title {
+  font-size: 27px;
+  text-align: center;
+  margin-top: 6%;
+  text-transform: uppercase;
+}
+.resetGame {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 1%;
+}
+
 .status {
   margin-bottom: 4%;
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
-  margin-top: 10%
+  margin-top: 2%
 }
 
 .square {
